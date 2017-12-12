@@ -3,4 +3,4 @@ MAINTAINER donkeysharp <serguimant@gmail.com>
 
 RUN apt-get update && apt-get install git \
     && npm install -g @angular/cli \
-    && npm rebuild node-sass --force
+    && npm install -g yarn@0.27.5
