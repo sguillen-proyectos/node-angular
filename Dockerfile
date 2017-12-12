@@ -1,4 +1,4 @@
-FROM node:9.2.1
+FROM node:6.12
 MAINTAINER donkeysharp <serguimant@gmail.com>
 
 RUN apt-get update && apt-get install git \
